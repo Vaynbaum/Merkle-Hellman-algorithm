@@ -38,5 +38,4 @@ entry = Text(root, width=35, height=10)
 entry.grid(row=1, column=0, columnspan=2, pady=5)
 
 create_not_exist_dir(PATH_DIR)
-root.mainloop()
 

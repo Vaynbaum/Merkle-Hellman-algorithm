@@ -20,5 +20,3 @@ sender = Sender()
 Button(root, text="Encrypt the message", command=encrypt_message).pack(side=BOTTOM, pady=5)
 editor = Text(root)
 editor.pack(anchor=N, fill=X, pady=5)
-
-root.mainloop()
